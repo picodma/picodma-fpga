@@ -1,0 +1,111 @@
+{
+    "clash-compiler": {
+        "branch": "blackboxscaffold",
+        "description": "Haskell to VHDL/Verilog/SystemVerilog compiler",
+        "homepage": "https://www.clash-lang.org/",
+        "owner": "clash-lang",
+        "repo": "clash-compiler",
+        "rev": "1701a6feec09748c4e639cfa51a541c3a54bff88",
+        "sha256": "0cswf68v6nhdpfdfyvhil7vgmv5z3rsdiap9d1sh4mxrdar4r23q",
+        "type": "tarball",
+        "url": "https://github.com/clash-lang/clash-compiler/archive/1701a6feec09748c4e639cfa51a541c3a54bff88.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "first-class-families": {
+        "branch": "master",
+        "description": "First-class type families",
+        "homepage": null,
+        "owner": "Lysxia",
+        "repo": "first-class-families",
+        "rev": "bb6487804594c6d6cdc383011d81dc425e5a456c",
+        "sha256": "1y1a6fi2307z04bzl5jw38zqrzzhjfb59kp47xj0ibnmqqr7xyka",
+        "type": "tarball",
+        "url": "https://github.com/Lysxia/first-class-families/archive/bb6487804594c6d6cdc383011d81dc425e5a456c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ghc-typelits-extra": {
+        "branch": "master",
+        "description": "Extra type-level operations on GHC.TypeLits.Nat and a custom solver",
+        "homepage": null,
+        "owner": "clash-lang",
+        "repo": "ghc-typelits-extra",
+        "rev": "14b52940d30172aee1c315dbc9868c0314017e99",
+        "sha256": "181m8nvac5px94spqy5hir0pnv67hnq8skcv46ji0dmb274c4zk9",
+        "type": "tarball",
+        "url": "https://github.com/clash-lang/ghc-typelits-extra/archive/14b52940d30172aee1c315dbc9868c0314017e99.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "a8de0b68b8216411cb862195354f251cd41bae50"
+    },
+    "ghc-typelits-knownnat": {
+        "branch": "master",
+        "description": "Derive KnownNat constraints from other KnownNat constraints",
+        "homepage": null,
+        "owner": "clash-lang",
+        "repo": "ghc-typelits-knownnat",
+        "rev": "d2f0851b23cae51fc6e87a7d6e98998cfa20ea56",
+        "sha256": "0khkpb6phqlk5z62frnamf0s35aqdddhz5v2li57m99k48vlkv2h",
+        "type": "tarball",
+        "url": "https://github.com/clash-lang/ghc-typelits-knownnat/archive/d2f0851b23cae51fc6e87a7d6e98998cfa20ea56.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "gitignore": {
+        "branch": "master",
+        "description": "Nix function for filtering local git sources",
+        "homepage": "",
+        "owner": "hercules-ci",
+        "repo": "gitignore",
+        "rev": "ec4a0039152655b6c919d289dafd7ba32206ea1f",
+        "sha256": "13qxqbs8jg2mz2fm2cs63czv30gxi39ws5qzf9j8mczqpdj6g3im",
+        "type": "tarball",
+        "url": "https://github.com/hercules-ci/gitignore/archive/ec4a0039152655b6c919d289dafd7ba32206ea1f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "higgledy": {
+        "branch": "master",
+        "description": "Higher-kinded data via generics",
+        "homepage": "",
+        "owner": "i-am-tom",
+        "repo": "higgledy",
+        "rev": "476d73a92e3ef6e1dc879555d751f877b0f91de8",
+        "sha256": "1vg9ha3knggyh5a76678y808c29v9p1mai9bq355q7amy0icy46j",
+        "type": "tarball",
+        "url": "https://github.com/i-am-tom/higgledy/archive/476d73a92e3ef6e1dc879555d751f877b0f91de8.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "88d6f20882b0422470acbcbf2d1b5f07e1d436f0",
+        "sha256": "0wkvz4drnglmmdrz8q1i1yr2fqizpf96k1wq2rlhd8l8x1522izq",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/88d6f20882b0422470acbcbf2d1b5f07e1d436f0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nixpkgs/NixOS branches that track the Nixpkgs/NixOS channels",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "b425012fdf450e7b3397d5a3d28d6091de24546f",
+        "sha256": "14zg1m59788j37qnylnsad09al9kzcq0mqsfr0pa4zd4r7rfc4ny",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/b425012fdf450e7b3397d5a3d28d6091de24546f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "type-errors": {
+        "branch": "master",
+        "description": "tools for writing better type errors ",
+        "homepage": null,
+        "owner": "isovector",
+        "repo": "type-errors",
+        "rev": "f171628f607d83de18bd96c1d4247674fece6b15",
+        "sha256": "1pkrns559mh1psp2ic4dybk8x91vcx04xpjx7m7msqx7xypfz2il",
+        "type": "tarball",
+        "url": "https://github.com/isovector/type-errors/archive/f171628f607d83de18bd96c1d4247674fece6b15.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

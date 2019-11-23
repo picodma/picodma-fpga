@@ -1,0 +1,6 @@
+trash/
+.shake/
+result/
+.envrc
+.git-old/
+micropython-setup.py
